@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <a href="/"><-- Kembali</a>
+            <h2>Detail Mahasiswa</h2>
+            <img src="{{ siswa['foto'] }}" alt="">
+            <h4>{{ siswa['nama'] }}</h4>
+            <h5>Email: {{ siswa['email'] }}</h5>
+            <h5>Nilai: {{ siswa['nilai'] }}</h5>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+ini tulisan tidak akan muncul
